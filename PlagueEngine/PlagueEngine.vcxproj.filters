@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="src\Core">
+      <UniqueIdentifier>{8417edf5-278d-40f9-9aa5-c7a40b449bc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Core\Core Methods">
+      <UniqueIdentifier>{8c5fec2c-7a5d-416e-be32-7dbb2452504a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GL_Graphics">
+      <UniqueIdentifier>{36499269-9e34-4581-b7d4-91eee0b70a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GL_Graphics\rendering">
+      <UniqueIdentifier>{4c878cba-a180-41a6-a0e1-99e18537e22d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GL_Graphics\rendering\renderer2D">
+      <UniqueIdentifier>{555c9fcf-271f-4452-b274-2d76a713b45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GL_Graphics\rendering\renderer3D">
+      <UniqueIdentifier>{b763eb8c-5f91-4ee4-aa61-05dcbe31689a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GL_Graphics\rendering\layers">
+      <UniqueIdentifier>{05004381-3eb5-47db-8449-70089ed61981}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GL_Graphics\GL_Buffers">
+      <UniqueIdentifier>{8b52c47d-8c0d-4056-b2b1-292b1b5947c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GL_Graphics\GL_Windows">
+      <UniqueIdentifier>{83d28727-94ea-45ed-85ed-6e86f22285de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GL_Graphics\GL_Renderers">
+      <UniqueIdentifier>{3cd4dfc8-34f5-4e28-b477-83258f8aafc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GL_Graphics\GL_Renderables">
+      <UniqueIdentifier>{52b2b94a-9e2b-4174-9cf5-67dc909e688c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GL_Graphics\GL_Shaders">
+      <UniqueIdentifier>{ed867b23-8338-4425-9a8f-ea97d379ec24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GL_Graphics\GL_Shaders\glsl">
+      <UniqueIdentifier>{f2a0dff7-5fbf-4ef5-b381-80833404fb77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utilities">
+      <UniqueIdentifier>{809536c6-05b0-4109-90ce-8d282b079744}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Core_Methods\Core_onCleanup.cpp">
+      <Filter>src\Core\Core Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Core_Methods\Core_onEvent.cpp">
+      <Filter>src\Core\Core Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Core_Methods\Core_onInit.cpp">
+      <Filter>src\Core\Core Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Core_Methods\Core_onLoop.cpp">
+      <Filter>src\Core\Core Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Core_Methods\Core_onRender.cpp">
+      <Filter>src\Core\Core Methods</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\FileUtils.cpp">
+      <Filter>src\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GL_Graphics\GL_Window\GL_Window.cpp">
+      <Filter>src\GL_Graphics\GL_Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GL_Graphics\GL_RenderingLayer\GL_Renderable\GL_Renderable.cpp">
+      <Filter>src\GL_Graphics\GL_Renderables</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GL_Graphics\GL_RenderingLayer\GL_Renderer\GL_Buffers\GL_Buffers.cpp">
+      <Filter>src\GL_Graphics\GL_Buffers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GL_Graphics\GL_RenderingLayer\GL_Renderer\GL_Renderer.cpp">
+      <Filter>src\GL_Graphics\GL_Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GL_Graphics\GL_RenderingLayer\GL_Shader\GL_Shader.cpp">
+      <Filter>src\GL_Graphics\GL_Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GL_Graphics\GL_RenderingLayer\GL_RenderingLayer.cpp">
+      <Filter>src\GL_Graphics\GL_Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GL_Graphics\GLM_MVP_Matrices\GLM_MVP_Matrices.cpp">
+      <Filter>src\GL_Graphics\GL_Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Core\Core.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SDL2.dll" />
+    <None Include="glew32.dll" />
+    <None Include="src\GL_Graphics\GL_RenderingLayer\GL_Shader\GLSL_Shaders\basicVert.glsl">
+      <Filter>src\GL_Graphics\GL_Shaders\glsl</Filter>
+    </None>
+    <None Include="src\GL_Graphics\GL_RenderingLayer\GL_Shader\GLSL_Shaders\basicFrag.glsl">
+      <Filter>src\GL_Graphics\GL_Shaders\glsl</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Core\Core.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\FileUtils.h">
+      <Filter>src\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\GL_Debugger.h">
+      <Filter>src\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GL_Graphics\GL_Window\GL_Window.h">
+      <Filter>src\GL_Graphics\GL_Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GL_Graphics\GL_RenderingLayer\GL_Renderable\GL_Renderable.h">
+      <Filter>src\GL_Graphics\GL_Renderables</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GL_Graphics\GL_RenderingLayer\GL_Renderer\GL_Buffers\GL_Buffers.h">
+      <Filter>src\GL_Graphics\GL_Buffers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GL_Graphics\GL_RenderingLayer\GL_Renderer\GL_Renderer.h">
+      <Filter>src\GL_Graphics\GL_Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GL_Graphics\GL_RenderingLayer\GL_Shader\GL_Shader.h">
+      <Filter>src\GL_Graphics\GL_Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GL_Graphics\GL_RenderingLayer\GL_RenderingLayer.h">
+      <Filter>src\GL_Graphics\GL_Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GL_Graphics\GLM_MVP_Matrices\GLM_MVP_Matrices.h">
+      <Filter>src\GL_Graphics\GL_Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Core\Core_Event.h">
+      <Filter>src\Core</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
